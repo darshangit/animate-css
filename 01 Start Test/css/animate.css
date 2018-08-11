@@ -3621,3 +3621,36 @@
     transition: none !important;
   }
 }
+
+/*Custom*/
+
+@-webkit-keyframes slideInDash {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-70%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDash {
+  from {
+    -webkit-transform: translate3d(-70%, 0, 0);
+    transform: translate3d(-70%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDash {
+  -webkit-animation-name: slideInDash;
+  animation-name: slideInDash;
+}

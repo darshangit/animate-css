@@ -3621,3 +3621,38 @@
     transition: none !important;
   }
 }
+
+/**custom**/
+
+@-webkit-keyframes slightFadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-20%, 0, 0);
+    transform: translate3d(-20%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slightFadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-20%, 0, 0);
+    transform: translate3d(-20%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slightFadeInLeft {
+  -webkit-animation-name: slightFadeInLeft;
+  animation-name: slightFadeInLeft;
+}
