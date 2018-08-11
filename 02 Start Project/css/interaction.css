@@ -138,6 +138,29 @@ p{
 	margin: 0;
 }
 
+/*Custom*/
+
+.section1{
+	animation-duration: 0.8s;
+}
+
+.section2{
+	animation-duration: 0.8s;
+	animation-delay: 0.3s;
+}
+.section3{
+	animation-duration: 0.8s;
+	animation-delay: 0.6s;
+}
+.section4{
+	animation-duration: 0.8s;
+	animation-delay: 0.9s;
+}
+
+.mobileReady {
+	animation-iteration-count: 2;
+}
+
 /***** Responsive Code *****/
 
 /*Small devices (landscape phones, 576px and up)*/
